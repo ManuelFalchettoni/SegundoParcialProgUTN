@@ -99,6 +99,8 @@ void mostrarMatriz(int arr[FILAS][COLUMNAS], char equipos[FILAS][cantidadCaracte
         printf("| %15d", i);
     }
     printf("| %15s\n",  "total");
+
+
     for (int i = 0; i < FILAS; i++)
     {
         printf("%15s", equipos[i]);
@@ -106,9 +108,11 @@ void mostrarMatriz(int arr[FILAS][COLUMNAS], char equipos[FILAS][cantidadCaracte
         {
             printf("%15d", arr[i][j]);
         }
-    if (i != 1)
+    
+        if (i != 1)
     {
         printf("%15d", totalEquipo1);
+    
     }else{
         printf("%15d", totalEquipo2);
     }

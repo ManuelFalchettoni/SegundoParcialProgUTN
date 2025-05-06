@@ -44,6 +44,10 @@ void calcularTotales(int matriz[CARRERAS][ANIOS], int totalesCarrera[CARRERAS], 
     {
         totalesCarrera[i] = 0; // Inicializar en 0
     }
+
+
+
+    
     for (int i = 0; i < ANIOS; i++)
     {
         totalesAnio[i] = 0; // Inicializar totales por año

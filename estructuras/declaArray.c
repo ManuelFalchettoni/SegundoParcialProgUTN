@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
+typedef struct{
+    int dia;
+    int mes;
+    int anio;
+}FechaNacimiento;
 struct Persona{
     char nombre[50];
     int edad;
+    FechaNacimiento fecha;
 };
 
 int main(){
